@@ -4,3 +4,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+webrick:
+  headers:
+    "Access-Control-Allow-Origin": "*"
+    "Access-Control-Allow-Methods": "*"
+    "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
